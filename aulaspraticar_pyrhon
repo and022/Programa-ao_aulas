@@ -34,7 +34,7 @@ somatoria = (nota1+nota2+nota3)/3
 
 resultado = somar_media(somatoria)
 
-print(resultado)
+print(resultado, "A sua nota e:", somatoria)
 
 
 def soma( a, b): 
