@@ -1,0 +1,42 @@
+# usando a funçao def para saber se o usuário e maior de idade ou não
+
+def marioridade(idade):
+    if idade >= 18:
+        return "voce e maior de idade possui mais de 18 anos"
+    elif idade == 18:
+        return "voce maior de idade e 18 anos"
+    elif idade < 18:
+        return "voce e menor de idade não possui 18 anos"
+    else:
+        return "erro digite novamente!"
+
+digitar_idade = int(input("Digite a sua idade: "))
+resultado = marioridade(digitar_idade)
+print(resultado)
+
+# somador de media usando o def 
+
+def somar_media(media):
+   if  media == 6:
+     return "na media aprovado"
+   elif media > 6:
+       return " aprovado"
+   elif media < 6:
+       return "reprovado"
+   else:
+       return " erro digite novamente"
+   
+nota1 = int(input("digite a primeira nota: "))
+nota2 = int(input("digite a segunda nota: "))
+nota3 = int(input("digite a terceira nota: "))
+
+somatoria = (nota1+nota2+nota3)/3
+
+resultado = somar_media(somatoria)
+
+print(resultado)
+
+
+
+
+
