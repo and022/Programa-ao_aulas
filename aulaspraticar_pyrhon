@@ -37,6 +37,20 @@ resultado = somar_media(somatoria)
 print(resultado)
 
 
+def soma( a, b): 
+    return a + b 
+numero1 = 1
+numero2 = 2
+
+resultado_conta = soma(numero1, numero2)
+print("O REsultado final da soma de", resultado_conta)
+ 
+
+
+
+
+
+
 
 
 
