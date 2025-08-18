@@ -44,6 +44,15 @@ numero2 = 2
 
 resultado_conta = soma(numero1, numero2)
 print("O REsultado final da soma de", resultado_conta)
+
+
+# usando o for para transformar a primeira palavra em letra maiuscula da variavel nomes
+
+nomes = ["andre", "pedro", "joao", "carina", "danilo"]
+
+
+for nome in nomes:
+    print(nome.capitalize())
  
 
 
