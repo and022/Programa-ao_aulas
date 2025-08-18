@@ -56,7 +56,17 @@ for nome in nomes:
  
 
 
+# utilizando o for novamente porem com a opçao input para o usúario digitar qualquer nome
 
+primeiro = input("Digite o primeiro nome:")
+segundo = input("Digite o segundo nome: ")
+terceiro = input("Digite o terceiro nome:")
+
+salvar = primeiro, segundo, terceiro
+
+
+for item in salvar:
+    print(item.capitalize())
 
 
 
