@@ -68,8 +68,33 @@ salvar = primeiro, segundo, terceiro
 for item in salvar:
     print(item.capitalize())
 
+# programa para descubrir o imc de uma pessoa atraves do peso e altura da pessoa.
+# usando novamente a funçao def.
 
+def funcao(imc):
+    if imc < 16:
+        return "Abaixo do peso muito grave (alto risco para a saúde)"
+    elif 16 <= imc < 17:
+        return "Abaixo do peso grave"
+    elif 17 <= imc < 18.5:
+        return "Abaixo do peso"
+    elif 18.5 <= imc < 25:
+        return "Peso normal (baixo risco)"
+    elif 25 <= imc < 30:
+        return "Sobrepeso (risco aumentado)"
+    elif 30 <= imc < 35:
+        return "Obesidade grau I (risco moderado)"
+    elif 35 <= imc < 40:
+        return "Obesidade grau II (grave - risco alto)"
+    else:  
+        return "Erro no sistema digite novamente!"
+    
+peso = float(input("digite o peso: "))
+altura = float(input("digite a altura: "))
 
+imc = peso/(altura * altura)
 
+resultado = funcao(imc)
 
-
+print(f"O seu imc é de: {imc:.2f}")
+print("A classificaçao é de: ", resultado)
