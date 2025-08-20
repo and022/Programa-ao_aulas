@@ -1,3 +1,8 @@
+
+#importando a biblioteca ramdom
+
+import random
+
 # usando a funçao def para saber se o usuário e maior de idade ou não
 
 def marioridade(idade):
@@ -98,3 +103,12 @@ resultado = funcao(imc)
 
 print(f"O seu imc é de: {imc:.2f}")
 print("A classificaçao é de: ", resultado)
+
+
+# utilizando a biblioteca ramdom
+
+print("escolhendo um numero entre 10 e 20")
+
+escolhendo = random.randint(10, 20)
+
+print("o numero escolhido foi:", escolhendo)
