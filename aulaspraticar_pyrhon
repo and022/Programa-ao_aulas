@@ -112,3 +112,20 @@ print("escolhendo um numero entre 10 e 20")
 escolhendo = random.randint(10, 20)
 
 print("o numero escolhido foi:", escolhendo)
+
+
+# criando um simples game/jogo de adivinhaçao usando o ramdom
+
+print("jogo de adivinhaçao, acerte o numero!")
+
+usuario_escolhe = int(input("esolha um numero entre 10 e 100:"))
+
+# chamando e utilizando o ramdom na variavel roleta escolha
+roleta_escolha = random.randint(10 , 100)
+
+# usando as condiçeos if e else para validar a escolha do usuario
+
+if usuario_escolhe == roleta_escolha:
+    print("voçe acertou parabens !!")
+else:
+    print("voçe errou ! joge novamente!", roleta_escolha)
