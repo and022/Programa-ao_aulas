@@ -129,3 +129,17 @@ if usuario_escolhe == roleta_escolha:
     print("voçe acertou parabens !!")
 else:
     print("voçe errou ! joge novamente!", roleta_escolha)
+
+# colocando em pratica as funçoes while do python 
+
+senha_correta = "andre123"
+
+senha = ""
+
+while senha != senha_correta:
+    senha = input("Digite a senha: ")
+    if senha == senha_correta:
+        print("Login feito com exito!")
+    else:
+        print("senha incorreta por favor digite novamente!")
+
