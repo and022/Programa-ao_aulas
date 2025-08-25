@@ -143,3 +143,18 @@ while senha != senha_correta:
     else:
         print("senha incorreta por favor digite novamente!")
 
+
+# implementando um  limitador de gastos 
+
+
+o_que_gastei = 0
+gastos = 0
+
+while gastos < 100:
+    o_que_gastei = float(input("valor gastos por mim até o momento: "))
+    gastos = o_que_gastei + gastos
+else:
+    print("voce gastou atingiu o limite de gastos")
+    print("voce gastou no total de", gastos, "R$")
+
+
