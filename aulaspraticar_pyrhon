@@ -157,4 +157,12 @@ else:
     print("voce gastou atingiu o limite de gastos")
     print("voce gastou no total de", gastos, "R$")
 
+# usando o for para mostrar a tabuada
+
+tabuada = int(input("Digite qualquer numero:"))
+
+for numero in range(11):
+    resultado_tabuada = tabuada * numero
+    print(f" aqui está o resultado:{tabuada} x {numero} = {resultado_tabuada}")
+
 
