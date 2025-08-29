@@ -166,3 +166,15 @@ for numero in range(11):
     print(f" aqui está o resultado:{tabuada} x {numero} = {resultado_tabuada}")
 
 
+# usando o for e range para calculo de notas
+
+soma_das_notas = 0
+
+for i in range(4):
+    digitando_as_notas = float(input(f"digite as notas{i + 1} :"))
+
+    soma_das_notas += digitando_as_notas
+
+    media_final = soma_das_notas/4
+
+    print("a sua media e", media_final)
