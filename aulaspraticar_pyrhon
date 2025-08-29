@@ -186,3 +186,17 @@ paises = ["Brasil", "Alemanha", "Turquia", "Espanha"]
 
 for pais, posicao in enumerate(paises):
     print("Aqui está a posiçao correta :", pais ,posicao)
+
+
+# for e range  para gastos 
+
+gastos = 0
+
+for a in range (5):
+    compra = float(input(f"digite valor da compra{a + 1}:"))
+    
+    gastos +=compra
+    
+    total = gastos + 1
+    
+    print("o valor total e de:",total)
