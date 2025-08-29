@@ -178,3 +178,11 @@ for i in range(4):
     media_final = soma_das_notas/4
 
     print("a sua media e", media_final)
+
+
+# for e enumerate
+
+paises = ["Brasil", "Alemanha", "Turquia", "Espanha"]   
+
+for pais, posicao in enumerate(paises):
+    print("Aqui está a posiçao correta :", pais ,posicao)
